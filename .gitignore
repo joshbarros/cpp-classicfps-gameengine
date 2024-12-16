@@ -1,0 +1,61 @@
+# Build directories
+build/
+Build/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE files
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcodeproj/
+*.xcworkspace/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# ImGui generated files
+imgui.ini
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dependency directories
+vendor/*/
+external/*/
+!vendor/.gitkeep
+!external/.gitkeep
+
+# Editor backup files
+*~
+*.swp
+*.swo
